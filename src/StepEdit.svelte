@@ -26,16 +26,11 @@
   <img src={$originalImage} alt="Imagen original subida por el usuario" />
   {#if processingImage}
     <div class="flex flex-col justify-center items-center">
-      <div class="lds-ripple">
-        <div />
-        <div />
-      </div>
       <p class="text-center mt-4">Procesando imagen...</p>
     </div>
   {:else}
     <img src={$modifiedImage} alt="Imagen sin fondo subida por el usuario" />
   {/if}
-  />
 </two-up>
 
 <a
