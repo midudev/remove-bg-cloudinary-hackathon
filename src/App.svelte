@@ -24,7 +24,7 @@
   </main>
 
   <footer class="flex justify-center items-center gap-x-2 font-semibold pt-10">
-    Hecho con <a href="https://cloudinary" target="_blank" rel="noreferrer"
+    Hecho con <a href="https://cloudinary.com" target="_blank" rel="noreferrer"
       ><CloudinaryLogo /></a
     >
   </footer>
